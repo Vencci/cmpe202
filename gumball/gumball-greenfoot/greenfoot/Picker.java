@@ -12,8 +12,13 @@ public class Picker extends Alien
      * Act - do whatever the Picker wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void pick() 
     {
         // Add your action code here.
+        int lottery = Greenfoot.getRandomNumber(2);
+        switch(lottery) {
+            case 0: ; break;
+            case 1: ; break;
+        }
     }    
 }
